@@ -1,0 +1,559 @@
+# Copyright (C) 2015 Array
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Publisher 2.2.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2015-01-05 16:57:18+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: templates/template-block.php:38
+msgid "0"
+msgstr ""
+
+#: templates/template-block.php:38
+msgid "1"
+msgstr ""
+
+#: 404.php:16
+msgid "404 &mdash; Page Not Found"
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Try using the navigation "
+"menu or the search box to locate the page you were looking for."
+msgstr ""
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:35
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:38
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:41
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:44
+msgid "Asides"
+msgstr ""
+
+#: archive.php:47
+msgid "Images"
+msgstr ""
+
+#: archive.php:50
+msgid "Videos"
+msgstr ""
+
+#: archive.php:53
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:56 templates/template-icons.php:29
+msgid "Links"
+msgstr ""
+
+#: archive.php:59 sidebar.php:13
+msgid "Archives"
+msgstr ""
+
+#: attachment.php:72
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: attachment.php:75
+msgid "Link to full-size image"
+msgstr ""
+
+#: comments.php:22
+msgid "Join the conversation!"
+msgstr ""
+
+#: comments.php:38
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:39
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:44
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:17
+msgid "Newer Posts"
+msgstr ""
+
+#: footer.php:18
+msgid "Older Posts"
+msgstr ""
+
+#: full-width.php:29 page.php:32 templates/template-titles.php:30
+msgid "Edit"
+msgstr ""
+
+#: functions.php:70
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:119
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:277
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:301
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: functions.php:309
+#. translators: 1: date, 2: time
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:323
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: header.php:28
+msgid "Menu"
+msgstr ""
+
+#: header.php:29
+msgid "Skip to content"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:14
+msgid "Getting Started"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:60
+msgid ""
+"There seems to be a problem retrieving the latest updates information from "
+"Array. Please check back later."
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:77
+msgid "Getting started with %1$s v%2$s"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:79
+msgid ""
+"Thanks for purchasing %1$s! We truly appreciate the support and the "
+"opportunity to share our work with you. Please visit the tabs below to get "
+"started setting up your theme!"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:86
+msgid "Help File"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:87
+msgid "License"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:88
+msgid "Latest Updates"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:91
+msgid "Support Forum &rarr;"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:112
+msgid ""
+"This help file feed seems to be temporarily down. You can view the help "
+"file on Array in the mean time."
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:112
+msgid "Help File &rarr;"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:131
+msgid "Install the Array Toolkit"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:132
+msgid "The Array Toolkit is a plugin that adds various features to your theme."
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:132
+msgid "requires the Array Toolkit to enable the following features:"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:136
+msgid "Portfolio Items"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:140
+msgid "Custom Galleries"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:145
+msgid "Slider Items"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:149
+msgid "Install Array Toolkit Plugin"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:157
+#: inc/admin/getting-started/getting-started.php:160
+msgid "Visit the Knowledge Base"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:158
+msgid ""
+"New to the WordPress world? Our Knowledge Base has over 20 video tutorials, "
+"from installing WordPress to working with themes and more."
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:164
+msgid "Theme Support"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:165
+msgid ""
+"If you have a question about your theme, send us a message via our Creative "
+"Market profile page. Simply click the little envelope under our bio to send "
+"us a message."
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:166
+msgid "Send Us A Message"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:166
+msgid "Send Us A Message &rarr;"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:174
+msgid "Activate your license for seamless updates!"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:178
+msgid ""
+"Add your license key to get theme updates without leaving your dashboard! "
+"Find your license key in your Array Dashboard in the <a class=\"thickbox\" "
+"href=\"%s\">Downloads</a> section. Save your key and then click the "
+"Activate button."
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:186
+msgid "Enter your license key:"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:190
+msgid "Save License Key"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:195
+msgid "Your license is active!"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:197
+msgid "Deactivate License"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:200
+msgid "License saved! Click to activate &rarr;"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:201
+msgid "Activate License"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:210
+msgid "Updating Your Theme"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:215
+msgid ""
+"Once your license key is activated, you can download and install theme "
+"updates by going to Appearance &rarr; Themes. A <a class=\"thickbox\" "
+"href=\"%s\">notice</a> will be displayed when an update is available."
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:219
+msgid ""
+"The update process will grab the latest theme files from Array and replace "
+"your current theme. Any changes you&apos;ve made to the theme files will be "
+"overwritten, so be sure to back up your theme before updating!"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:227
+msgid "Latest Theme Updates"
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:258
+msgid ""
+" %1$s activated! Visit the <a href=\"%2$s\">Getting Started</a> page to "
+"view the help file or ask us a question. "
+msgstr ""
+
+#: inc/admin/getting-started/getting-started.php:260
+msgid "<a href=\"%1$s\">Hide this notice</a>"
+msgstr ""
+
+#: inc/admin/theme-updater/theme-updater.php:54
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: inc/customizer.php:32
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer.php:33
+msgid "Add your logo and social media links below."
+msgstr ""
+
+#: inc/customizer.php:42
+msgid "Logo Upload"
+msgstr ""
+
+#: inc/customizer.php:57
+msgid "Featured Image as Post Background"
+msgstr ""
+
+#: inc/customizer.php:61
+msgid "Enable"
+msgstr ""
+
+#: inc/customizer.php:62
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer.php:76
+msgid "Social Media Links"
+msgstr ""
+
+#: inc/customizer.php:79
+msgid ""
+"Add links to your various social media sites. These icons will appear in "
+"the header."
+msgstr ""
+
+#: inc/customizer.php:93
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/customizer.php:107
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/customizer.php:121
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/customizer.php:135
+msgid "Tumblr URL"
+msgstr ""
+
+#: inc/customizer.php:149
+msgid "Dribbble URL"
+msgstr ""
+
+#: inc/customizer.php:163
+msgid "Flickr URL"
+msgstr ""
+
+#: inc/customizer.php:177
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/customizer.php:191
+msgid "Google+ URL"
+msgstr ""
+
+#: inc/customizer.php:205
+msgid "Vimeo URL"
+msgstr ""
+
+#: inc/customizer.php:219
+msgid "YouTube URL"
+msgstr ""
+
+#: inc/customizer.php:233
+msgid "LinkedIn URL"
+msgstr ""
+
+#: inc/customizer.php:247
+msgid "RSS URL"
+msgstr ""
+
+#: inc/customizer.php:261
+msgid "Email Address"
+msgstr ""
+
+#: inc/customizer.php:275
+msgid "GitHub URL"
+msgstr ""
+
+#: inc/template-tags.php:39
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:43
+msgid "Previous Post"
+msgstr ""
+
+#: inc/template-tags.php:44
+msgid "Next Post"
+msgstr ""
+
+#: inc/template-tags.php:49
+msgid ""
+"<span class=\"meta-nav\"><i class=\"fa fa-chevron-left\"></i></span> Older "
+"posts"
+msgstr ""
+
+#: inc/template-tags.php:53
+msgid ""
+"Newer posts <span class=\"meta-nav\"><i class=\"fa "
+"fa-chevron-right\"></i></span>"
+msgstr ""
+
+#: inc/wpcom.php:38
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: inc/wpcom.php:40
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: inc/wporg.php:46
+msgid "Accent Color"
+msgstr ""
+
+#: inc/wporg.php:58
+msgid "Custom CSS"
+msgstr ""
+
+#: page.php:18 post-formats/format-image.php:13
+#: post-formats/format-image.php:15 post-formats/format-standard.php:13
+#: post-formats/format-standard.php:15 templates/template-block.php:45
+msgid "Permalink to %s"
+msgstr ""
+
+#: search.php:13
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:11 searchform.php:13 templates/template-icons.php:32
+#: templates/template-icons.php:119
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:20
+msgid "Meta"
+msgstr ""
+
+#: single.php:37
+msgid "Comments"
+msgstr ""
+
+#: single.php:39
+msgid "Author"
+msgstr ""
+
+#: single.php:40
+msgid "Details"
+msgstr ""
+
+#: single.php:63
+msgid "About %s"
+msgstr ""
+
+#: single.php:71
+msgid "Latest Posts By %s"
+msgstr ""
+
+#: single.php:81
+msgid "Category"
+msgstr ""
+
+#: single.php:87
+msgid "Tags"
+msgstr ""
+
+#: templates/template-block.php:38
+msgid "Permalink to %s comments"
+msgstr ""
+
+#: templates/template-block.php:38
+msgid "%"
+msgstr ""
+
+#: templates/template-icons.php:120
+msgid "Type here and press enter."
+msgstr ""
+
+#: templates/template-titles.php:28
+msgid "Read More"
+msgstr ""
+
+#: templates/template-titles.php:41
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Publisher"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://array.is/themes/publisher-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Curate an eclectic scrapbook of photos, videos, audio and more with "
+"Publisher. Featuring a responsive, masonry-style layout, Publisher looks "
+"just as good on your mobile device as it does on the desktop."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Array"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://array.is"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr ""
+
+#: comments.php:25
+msgctxt "comments title"
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:141
+#. Translators: If there are characters in your language that are not
+#. * supported by Arimo, translate this to 'off'. Do not translate
+#. * into your own language.
+msgctxt "Arimo font: on or off"
+msgid "on"
+msgstr ""
