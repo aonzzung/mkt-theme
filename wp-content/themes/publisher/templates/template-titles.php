@@ -17,12 +17,24 @@
 		<?php } ?>
 
 		<?php if( is_single() ) { ?>
-			<h1 class="block-entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+			<h1 class="block-entry-title"><?php the_title(); ?></h1>
 		<?php } else { ?>
 			<h2 class="block-entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 		<?php } ?>
 	</div><!-- .block-titles -->
+        
+        <div class="block-meta">
 
+		<span class="block-author-link">
+                    By: 
+                    <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author(); ?></a> &nbsp;|&nbsp;
+		</span>
+                <span class="block-post-date">
+                    Posted: 
+                    <a href="<?php echo get_day_link(get_post_time('Y'), get_post_time('m'), get_post_time('j')); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'publisher' ), the_title_attribute( 'echo=0' ) ) ); ?>"><?php the_time('d M Y'); ?></a>
+                </span>
+	</div><!-- .block-meta -->
+        
 	<div class="block-text">
 		<?php if( is_single() ) { ?>
 			<?php the_content( __( 'Read More', 'publisher' ) ); ?>
@@ -35,6 +47,7 @@
 				$ismore = strpos( $post->post_content, '<!--more-->' );
 
 				if( $ismore ) {
+                                    
 					if ( function_exists( 'post_flair_mute' ) )
 						post_flair_mute();
 
@@ -44,7 +57,7 @@
 						post_flair_unmute();
 				}
 				else {
-					the_excerpt();
+                                    the_excerpt();
 				}
 			?>
 		<?php } ?>
