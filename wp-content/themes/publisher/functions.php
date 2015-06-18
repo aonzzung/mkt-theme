@@ -196,6 +196,10 @@ function publisher_scripts() {
 
 	//Main Stylesheet
 	wp_enqueue_style( 'publisher-style', get_stylesheet_uri() );
+        
+        //Custom Stylesheet
+	wp_register_style( 'custom-style', get_template_directory_uri() . '/tym-library/css/custom-style.css', array(), '1.0', 'all' );
+        wp_enqueue_style( 'custom-style' );
 
 	//Font Awesome
 	wp_enqueue_style( 'publisher-fontawesome-css', get_template_directory_uri() . "/inc/fonts/fontawesome/font-awesome.css", array( 'publisher-style' ), '4.0.3' );
@@ -325,3 +329,12 @@ function publisher_comment( $comment, $args, $depth ) {
 		</div>
 <?php
 }
+
+
+/*********************************************
+ ******** TymBerry Extension *********
+ *********************************************/
+
+require_once('tym-library/berry-functions.php');
+
+/*********************************************/

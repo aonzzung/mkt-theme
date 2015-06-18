@@ -1,0 +1,31 @@
+/*
+This is an extended custom style by TymBerry
+*/
+/* 
+    Created on : Jun 18, 2015, 3:46:38 PM
+    Author     : TymBerry
+*/
+
+// Lesshat
+@import "lesshat.less";
+
+nav.main-navigation
+{
+    // Home logo
+    a[title=mkt-home-logo]
+    {
+        text-indent: -9999px; // send text offscreen
+        background-image: url(../img/mkt-logo.png);
+        .background-size(cover);
+        background-position:center center;
+        background-origin:border-box;
+        background-repeat: no-repeat;
+        width: 50px;
+        
+        &:hover{
+            background-image: url(../img/mkt-logo-alt.png);
+        }
+    }
+}
+
+
