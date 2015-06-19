@@ -40,8 +40,8 @@ function publisher_content_nav( $nav_id ) {
 
 	<?php if ( is_single() ) : // navigation links for single posts ?>
 
-		<?php previous_post_link( '<div class="nav-previous">%link</div>', '<span class="meta-nav">' . __( 'Previous Post', 'publisher' ) . '</span> %title' ); ?>
-		<?php next_post_link( '<div class="nav-next">%link</div>', '<span class="meta-nav">' . __( 'Next Post', 'publisher' ) . '</span> %title' ); ?>
+		<?php previous_post_link( '<div class="nav-previous"><span class="meta-nav">' . __( 'Previous Post', 'publisher' ) . '</span>%link</div>', '%title' ); ?>
+		<?php next_post_link( '<div class="nav-next"><span class="meta-nav">' . __( 'Next Post', 'publisher' ) . '</span>%link</div>', '%title' ); ?>
 
 	<?php elseif ( $wp_query->max_num_pages > 1 && ( is_home() || is_archive() || is_search() ) ) : // navigation links for home, archive, and search pages ?>
 

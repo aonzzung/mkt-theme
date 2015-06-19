@@ -34,14 +34,14 @@ $classes = array(
 	?>
 
 	<div class="block-meta">
-		<div class="block-comments">
-			<a href="<?php the_permalink(); ?>#single-tabs" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s comments', 'publisher' ), the_title_attribute( 'echo=0' ) ) ); ?>"><i class="fa fa-comments"></i> <?php comments_number( __('0', 'publisher'), __('1', 'publisher'), __( '%', 'publisher' ) );?></a>
-		</div>
 
-		<div class="block-author-link">
-			<i class="icon-pencil"></i> <?php the_author_posts_link(); ?>
-		</div>
-
-		<a class="block-permalink" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'publisher' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><i class="fa fa-link"></i></a>
+		<span class="block-author-link">
+                    By: 
+                    <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author(); ?></a> &nbsp;|&nbsp;
+		</span>
+                <span class="block-post-date">
+                    Posted: 
+                    <a href="<?php echo get_day_link(get_post_time('Y'), get_post_time('m'), get_post_time('j')); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'publisher' ), the_title_attribute( 'echo=0' ) ) ); ?>"><?php the_time('d M Y'); ?></a>
+                </span>
 	</div><!-- .block-meta -->
 </div><!-- .block -->

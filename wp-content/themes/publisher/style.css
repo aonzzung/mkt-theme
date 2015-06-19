@@ -1496,10 +1496,9 @@ a.search-toggle:hover { color: #fff }
 }
 
 .block-comments, .block-likes, .block-author-link {
-    float: left;
     text-transform: uppercase;
     font-size: 11px;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 2.2;
 }
 
@@ -1513,11 +1512,6 @@ a.search-toggle:hover { color: #fff }
     transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
-}
-
-.block-author-link {
-    margin-left: 12px;
-    display: none;
 }
 
 /* =Infinite Scroll
