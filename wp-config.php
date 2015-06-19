@@ -36,6 +36,7 @@ define('DB_COLLATE', '');
 define('WP_PROXY_HOST', '192.168.5.24');
 define('WP_PROXY_PORT', '3128');
 define('WP_PROXY_BYPASS_HOSTS', 'localhost');
+define( 'JETPACK_DEV_DEBUG', true);
 
 /**#@+
  * Authentication Unique Keys and Salts.

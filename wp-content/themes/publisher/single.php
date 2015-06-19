@@ -55,12 +55,13 @@ get_header(); ?>
 													if ( empty( $curauth->description ) ) { } else {
 												?>
 													<div class="author-profile">
-														<div id="author-avatar">
-															<?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'publisher_author_bio_avatar_size', 100 ) ); ?>
-														</div>
-
+                                                                                                                <a href="<?php echo get_the_author_meta( 'linkedin' ); ?>">
+                                                                                                                    <div id="author-avatar">
+                                                                                                                            <?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'publisher_author_bio_avatar_size', 100 ) ); ?>
+                                                                                                                    </div>
+                                                                                                                </a>
 														<div id="author-description">
-															<h2><?php printf( __( 'About %s', 'publisher' ), get_the_author() ); ?></h2>
+                                                                                                                    <h2><?php _e( 'About', 'publisher' ) ?> <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author(); ?> </a></h2>
 															<?php the_author_meta( 'description' ); ?>
 														</div>
 														<div class="clear"></div>
@@ -68,7 +69,7 @@ get_header(); ?>
 												<?php } ?>
 
 												<div class="author-posts">
-													<h3><?php printf( __( 'Latest Posts By %s', 'publisher' ), get_the_author() ); ?></h3>
+													<h3><?php _e( 'Latest Posts By', 'publisher' )?> <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author(); ?> </a> </h3>
 													<?php echo publisher_author_posts(); ?>
 												</div><!-- author-posts -->
 											</div><!-- author-info -->

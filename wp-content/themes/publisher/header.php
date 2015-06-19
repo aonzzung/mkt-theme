@@ -46,6 +46,7 @@
 		</div><!-- .navigation-wrap-inside -->
 	</div><!-- .navigation-wrap -->
 
+        <?php if(is_front_page()): ?>
 	<header id="masthead" class="site-header" role="banner" <?php if ( '' != get_header_image() ) { ?>style="background-image: url('<?php echo header_image(); ?>');"<?php } ?>>
 
 		<div class="header-wrap">
@@ -65,3 +66,4 @@
 			</div>
 		</div><!-- .header-wrap -->
 	</header><!-- #masthead .site-header -->
+        <?php endif; ?>

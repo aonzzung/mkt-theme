@@ -63,3 +63,20 @@ nav.main-navigation
     }
 }
 
+
+// Printing
+@media print {
+    #header, #secondary, #tertiary, #footer,
+    .navigation-wrap,
+    #jp-post-flair, 
+    .sharedaddy,
+    #jp-relatedposts,
+    #single-tabs,
+    .site-footer
+    { display: none; }
+    
+    #primary
+    {
+        width: 100%;
+    }
+}

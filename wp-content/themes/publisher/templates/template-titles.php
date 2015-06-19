@@ -23,6 +23,7 @@
 		<?php } ?>
 	</div><!-- .block-titles -->
         
+        <?php if( is_single() ) : ?>
         <div class="block-meta">
 
 		<span class="block-author-link">
@@ -34,6 +35,7 @@
                     <a href="<?php echo get_day_link(get_post_time('Y'), get_post_time('m'), get_post_time('j')); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'publisher' ), the_title_attribute( 'echo=0' ) ) ); ?>"><?php the_time('d M Y'); ?></a>
                 </span>
 	</div><!-- .block-meta -->
+        <?php endif; ?>
         
 	<div class="block-text">
 		<?php if( is_single() ) { ?>
