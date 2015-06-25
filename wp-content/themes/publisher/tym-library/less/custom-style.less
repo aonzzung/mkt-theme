@@ -102,3 +102,246 @@ nav.main-navigation
         width: 100%;
     }
 }
+
+
+
+
+
+
+
+
+
+//-------------------------
+// Legacy Custom Style from previous developer
+//-------------------------
+.site-header {
+    background: #f5df34;
+    background-position: center;
+    z-index: 10;
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: 211px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navigation-wrap  {
+    position: fixed !important;
+    top:0 !important;
+    z-index: 100;
+}
+
+#masthead {
+    margin-top:78px;
+    background-color: #f5df34;
+}
+
+#menu-item-286 a {
+    color:#212026;
+    position: fixed !important;
+    left: 20px;
+    top: -14px;
+    font-size: 11px;
+    height:20px;
+    background-color: #fadc00  !important;
+    font-weight:bold;
+}
+
+#menu-item-58 a {
+    color:#212026;
+    position: fixed !important;
+    right: 20px;
+    top: -14px;
+    font-size: 11px;
+    height:20px;
+    background-color: #fadc00  !important;
+    font-weight:normal;
+}
+
+.main-navigation li.current-menu-item > a, .main-navigation li a {
+    color: #eeeeee;
+    font-size:12px;
+    background-color: #212026 !important;
+}
+
+.main-navigation li.current-menu-item  > a, .main-navigation li  a:hover {
+    color: #212026!important;
+    background-color: #fadc00  !important;
+    border-radius: 0px !important;
+}
+
+.menu-item {
+    border-bottom: 3px solid    #212026; 
+}
+
+.menu-item-home a {
+    padding-left:12px !important;
+}
+
+.toggle-search {
+    padding-right:12px !important;
+}
+
+.toggle-icons a:hover {
+    color:#ffffff !important;
+}
+
+.toggle-icons a {
+    color:#bababa !important;
+}
+
+#menu-item-206 a {
+    color: #eeeeee !important;
+    font-size: 12px !important;
+    background-color: #212026 !important;
+}
+
+#menu-item-206 a:hover {
+    color: #212026!important;
+    background-color: #fadc00 !important;
+    border-radius: 0px !important;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size: 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+li.cat-item.cat-item-1 {
+    display:none;
+}
+
+.icon-links  a {
+    color: #eeeeee !important;
+}
+
+.icon-links  a:hover {
+    color: #fadc00 !important;
+}
+
+.navigation-wrap {
+    margin: 0;
+    padding: 0 20px;
+    width: 100%;
+    z-index: 50;
+    position: relative;
+    background: #212026;
+    min-height: 54px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 5px;
+    border-top: 24px solid #f5df34;
+}
+
+.block-entry-title  a:hover{
+    //color: #00c7f3  !important;
+}
+
+#primary .block-entry-title  a:hover{
+    //color: #555555 !important;
+}
+
+.fa-slideshare {
+    display:inline-block;
+    color: #212026;
+    background-color: #eeeeee;
+    border-radius: 4px;
+    width: 22px;
+    height: 22px;
+    font-size: 20px;
+    text-align:center;
+    vertical-align:middle;
+    padding-top:1px;
+    margin-top: -9px;
+}
+
+a.slideshare-icon > i:hover{
+    background-color: #fadc00 !important;
+    color: #212026;
+}
+
+
+.block-quote {
+    position: relative;
+    background: #f9f9f9;
+    padding: 5%;
+    -webkit-transition: .07s ease-in;
+    -moz-transition: .07s ease-in;
+    transition: .07s ease-in;
+}
+
+.block-date {visibility:hidden !important}
+
+#recent-posts-2 > ul > li > a, #archives-2 > ul > li > a, #categories-2 > ul > li > a {
+    color: #555555;
+}
+
+#recent-posts-2 > ul > li > a:hover, #archives-2 > ul > li > a:hover, #categories-2 > ul > li > a:hover, #content div.block-text > div.entry-content > p a:hover {
+    text-decoration: underline; color: #00c7f3;
+}
+
+aside#search-2.widget.widget_search, aside#recent-comments-2, aside#meta-2  {
+    visibility: hidden !important;
+    height:0px !important;
+    padding: 0px;
+    margin: 0px;
+}
+
+.site-footer {
+    z-index: 40;
+    width: 100%;
+    display: block;
+    background: #212026;
+    padding: 7px 3%;
+    margin: 0 0 -7px 0;
+    height:40px;
+    position:fixed !important;
+    bottom:0;
+    text-decoration:none !important;
+}
+
+.site-info a {
+    pointer-events: none;
+    cursor: default;
+    text-decoration:none !important;
+}
+
+.copyright a {
+    border-bottom: 0px;
+}
+
+@media only screen and (max-width:765px) {
+
+    .menu-item-home a {
+        padding-left:0px !important;
+    }
+    body {
+        overflow-y: hidden;
+    }
+    #menu-item-58 a {
+        visibility: visible !important;
+        top: 0px !important;
+    }
+    #menu-item-57 a {
+        color:#ffffff !important;
+    }
+    #menu-item-286, #menu-item-58 {
+        Display:none;
+    }
+    #masthead {
+        margin-top:50px;
+    }
+    .navigation-wrap {
+        border-top:0px;
+    }
+}

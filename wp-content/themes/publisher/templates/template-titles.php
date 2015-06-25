@@ -49,7 +49,6 @@
 				$ismore = strpos( $post->post_content, '<!--more-->' );
 
 				if( $ismore ) {
-                                    
 					if ( function_exists( 'post_flair_mute' ) )
 						post_flair_mute();
 

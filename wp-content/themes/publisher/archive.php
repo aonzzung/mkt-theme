@@ -32,7 +32,7 @@ get_header(); ?>
 							rewind_posts();
 
 						elseif ( is_day() ) :
-							printf( __( 'Day: %s', 'publisher' ), '<span>' . get_the_date() . '</span>' );
+							printf( __( 'Posted: %s', 'publisher' ), '<span>' . get_the_date('d M Y') . '</span>' );
 
 						elseif ( is_month() ) :
 							printf( __( 'Month: %s', 'publisher' ), '<span>' . get_the_date( 'F Y' ) . '</span>' );
