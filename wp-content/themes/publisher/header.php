@@ -66,4 +66,6 @@
 			</div>
 		</div><!-- .header-wrap -->
 	</header><!-- #masthead .site-header -->
+        <?php else: ?>
+        <header id="masthead" class="site-header" role="banner" style="height:0px;"></header>
         <?php endif; ?>

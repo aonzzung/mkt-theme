@@ -85,8 +85,12 @@ nav.main-navigation
     }
 }
 
+// Share module (Jetpack)
+.sd-social .sd-button .share-count{
+    display: none !important; // hidden counting number
+}
 
-// Printing
+// Printing Layout
 @media print {
     #header, #secondary, #tertiary, #footer,
     .navigation-wrap,
@@ -95,7 +99,7 @@ nav.main-navigation
     #jp-relatedposts,
     #single-tabs,
     .site-footer
-    { display: none; }
+    { display: none !important; }
     
     #primary
     {
@@ -105,7 +109,9 @@ nav.main-navigation
 
 
 
-
+//
+// ########
+//
 
 
 
