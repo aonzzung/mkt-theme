@@ -104,7 +104,7 @@ function publisher_author_posts() {
     $output = '<ul>';
 		foreach ( $authors_posts as $post ) {
 			setup_postdata( $post );
-			$output .= '<li><span>' . get_the_date( 'm.d.y' ) . '</span><a href="' . esc_url( get_permalink() ) . '">' . get_the_title() . '</a></li>';
+			$output .= '<li><span>' . get_the_date( 'd M Y' ) /*get_the_date( 'm.d.y' )*/ . '</span><a href="' . esc_url( get_permalink() ) . '">' . get_the_title() . '</a></li>';
 		}
 		wp_reset_postdata();
 	$output .= '</ul>';
@@ -194,6 +194,10 @@ function publisher_scripts() {
 	//HTML5 IE Shiv
 	wp_enqueue_script( 'publisher-htmlshiv-js', get_template_directory_uri() . '/js/html5shiv.js', array(), '3.6.2', true );
 
+        // TymBerry Script
+        wp_enqueue_script( 'berry-jquery-ui-js', get_template_directory_uri() . '/tym-library/js/jquery-ui.min.js', array(), '1.11.4', true );
+        wp_enqueue_script( 'berry-script-js', get_template_directory_uri() . '/tym-library/js/berry-script.js', array(), '1.0', true );
+        
 	//Main Stylesheet
 	wp_enqueue_style( 'publisher-style', get_stylesheet_uri() );
         

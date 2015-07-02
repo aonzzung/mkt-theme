@@ -640,9 +640,8 @@ blockquote p:last-child { margin: 0 }
     padding-right: 5%;
 }
 
-.post-navigation a { color: #555 }
-
-.post-navigation a:hover { color: #469AF6 }
+/*.post-navigation a { color: #555 }
+.post-navigation a:hover { color: #469AF6 }*/
 
 .post-navigation .nav-previous, .post-navigation .nav-next {
     float: left;

@@ -18,9 +18,11 @@ nav.main-navigation
         background-image: url(../img/mkt-logo.png);
         .background-size(cover);
         background-position:center center;
-        background-origin:border-box;
+        background-origin:content-box;
         background-repeat: no-repeat;
         width: 50px;
+        padding-left: 7px !important;
+        padding-right: 7px !important;
         
         &:hover{
             background-image: url(../img/mkt-logo-alt.png);
@@ -82,6 +84,23 @@ nav.main-navigation
         background: #f7f7f7;
         padding: 5%;
         margin: 0;
+        
+        div.jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a:hover
+        {
+            text-decoration: none;
+        }
+    }
+
+    // Next/Prev posts
+    .post-navigation a:hover { color: #555; }
+    
+    // Cat/tags
+    .post-detail-col .post-detail-cat a{ color: #555;}
+    .post-detail-col .post-detail-cat a:hover{ color: #00c7f3;}
+    
+    .widget-area .widget ul li a:hover
+    {
+        text-decoration: none !important;
     }
 }
 
@@ -97,7 +116,7 @@ nav.main-navigation
     #jp-post-flair, 
     .sharedaddy,
     #jp-relatedposts,
-    #single-tabs,
+    #single-tabs .single-tab-nav,
     .site-footer
     { display: none !important; }
     
