@@ -69,7 +69,7 @@ get_header(); ?>
 												<?php } ?>
 
 												<div class="author-posts">
-													<h3><?php _e( 'Latest Posts By', 'publisher' )?> <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author(); ?> </a> </h3>
+													<h3><?php _e( 'Latest Posts by', 'publisher' )?> <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author(); ?> </a> </h3>
 													<?php echo publisher_author_posts(); ?>
 												</div><!-- author-posts -->
 											</div><!-- author-info -->
@@ -79,7 +79,7 @@ get_header(); ?>
 											<?php publisher_content_nav( 'nav-below' ); ?>
 											<div class="post-detail-col">
 												<div class="post-detail-cat">
-													<h3><?php _e( 'Category', 'publisher' ); ?></h3>
+													<h3><?php _e( 'Categories', 'publisher' ); ?></h3>
 													<?php the_category( ', ' ); ?>
 												</div>
 

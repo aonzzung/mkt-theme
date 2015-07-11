@@ -24,7 +24,8 @@
 		<div class="copyright">
 			<div class="site-info">
 				<?php
-				$footer_text = '&copy; ' . date("Y") . ' <a href="' . esc_url( home_url() ) . '">' . get_bloginfo( 'name' ) . '</a>';
+//				$footer_text = '&copy; ' . date("Y") . ' <a href="' . esc_url( home_url() ) . '">' . get_bloginfo( 'name' ) . '</a>';
+                                $footer_text = '&copy; ' . ' <a href="' . esc_url( home_url() ) . '">' . get_bloginfo( 'name' ) . '</a>';
 				$footer_text .= '<span class="sep"> | </span>';
 				$footer_text .= get_bloginfo( "description" ); ?>
 

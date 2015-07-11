@@ -269,8 +269,12 @@ function publisher_wp_title( $title, $sep ) {
 		return $title;
 	}
 
-	global $page, $paged;
-
+	global $wp_locale, $page, $paged;
+        
+        
+        // date vars
+        $m = get_query_var('m');
+        
 	// Add the blog name
 //	$title .= get_bloginfo( 'name', 'display' );
         $title .= get_bloginfo( 'description', 'display' );
@@ -280,7 +284,16 @@ function publisher_wp_title( $title, $sep ) {
 	if ( $site_description && ( is_home() || is_front_page() ) ) {
 		$title .= " $sep $site_description";
 	}
-
+        
+        // If there's a month
+	if ( is_archive() && !empty($m) ) {
+                $t_sep = " ";
+		$my_year = substr($m, 0, 4);
+		$my_month = strtoupper($wp_locale->get_month_abbrev($wp_locale->get_month(substr($m, 4, 2))));
+		$my_day = intval(substr($m, 6, 2));
+		$title = ( $my_day ? $my_day : '' ).( $my_month ? $t_sep.$my_month : '' ) . ($my_year ? $t_sep.$my_year : ''). " $sep $site_description";
+	}
+        
 	// Add a page number if necessary:
 	if ( $paged >= 2 || $page >= 2 ) {
 		$title .= " $sep " . sprintf( __( 'Page %s', 'publisher' ), max( $paged, $page ) );

@@ -43,8 +43,8 @@ nav.main-navigation
 .block-meta
 {
     text-align: center;
-    padding: 2% 25px 11% 25px;
-    background: #fff;
+    /*padding: 2% 25px 11% 25px;*/
+    /*background: #fff;*/
     
     .block-post-date,
     .block-post-date a,
@@ -67,7 +67,10 @@ nav.main-navigation
 }
 .block-quote
 {
-    margin-bottom: 9%;
+    //margin-bottom: 9%;
+    &:not(.has-post-thumbnail){
+        padding-bottom: 0;
+    }
 }
 
 // Single post
@@ -76,11 +79,13 @@ nav.main-navigation
     .block-meta
     {
         .box-shadow(none);
+        background: none;
     }
     
     .block-text
     {
         overflow: hidden; // fixed bug : overlapping with youtube video
+        padding-top: 40px;
     }
     
     .sharedaddy,
@@ -303,7 +308,11 @@ a.slideshare-icon > i:hover{
 
 .block-quote {
     position: relative;
-    background: #f9f9f9;
+    
+    &:not(.has-post-thumbnail){
+        background: #f9f9f9;
+    }
+    
     padding: 5%;
     -webkit-transition: .07s ease-in;
     -moz-transition: .07s ease-in;
