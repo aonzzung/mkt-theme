@@ -23,9 +23,15 @@ nav.main-navigation
         width: 50px;
         padding-left: 7px !important;
         padding-right: 7px !important;
+        color: #eeeeee;
+        font-size:12px;
+        background-color: #fadc00 !important;
+        border-radius: 0 !important;
         
         &:hover{
             background-image: url(../img/mkt-logo-alt.png);
+            background-color: #fadc00 !important;
+            border-radius: 0 !important;
         }
     }
 }
@@ -177,8 +183,8 @@ nav.main-navigation
     background-color: #f5df34;
 }
 
-#menu-item-286 a {
-    color:#212026;
+.menu-item a[title^=top-left-menu] {
+    color: #212026 !important;
     position: fixed !important;
     left: 20px;
     top: -14px;
@@ -188,8 +194,8 @@ nav.main-navigation
     font-weight:bold;
 }
 
-#menu-item-58 a {
-    color:#212026;
+.menu-item a[title^=top-right-menu] {
+    color:#212026 !important;
     position: fixed !important;
     right: 20px;
     top: -14px;
@@ -197,18 +203,6 @@ nav.main-navigation
     height:20px;
     background-color: #fadc00  !important;
     font-weight:normal;
-}
-
-.main-navigation li.current-menu-item > a, .main-navigation li a {
-    color: #eeeeee;
-    font-size:12px;
-    background-color: #212026 !important;
-}
-
-.main-navigation li.current-menu-item  > a, .main-navigation li  a:hover {
-    color: #212026!important;
-    background-color: #fadc00  !important;
-    border-radius: 0px !important;
 }
 
 .menu-item {
@@ -231,13 +225,15 @@ nav.main-navigation
     color:#bababa !important;
 }
 
-#menu-item-206 a {
+.menu-item a[title^=standard],
+.sub-menu a {
     color: #eeeeee !important;
     font-size: 12px !important;
     background-color: #212026 !important;
 }
 
-#menu-item-206 a:hover {
+.menu-item a[title^=standard]:hover,
+.sub-menu a:hover{
     color: #212026!important;
     background-color: #fadc00 !important;
     border-radius: 0px !important;
