@@ -929,12 +929,12 @@ a.search-toggle:hover { color: #fff }
     position: relative;
 }
 
-.single .block-quote p {
+.single .block-quote > p {
     font-size: 40px;
     line-height: 1.3;
 }
 
-.block-quote em {
+body:not(.single) .block-quote em {
     display: inline-block;
     color: #fff;
     font-style: normal;
@@ -945,11 +945,11 @@ a.search-toggle:hover { color: #fff }
     letter-spacing: 0;
 }
 
-.block-quote a { color: #fff }
+body:not(.single) .block-quote a { color: #fff }
 
-.block-quote a:hover { color: #DBDBDB }
+body:not(.single) .block-quote a:hover { color: #DBDBDB }
 
-.single .block-quote em {
+.single .block-quote > em {
     font-size: 20px;
     font-weight: bold;
 }
